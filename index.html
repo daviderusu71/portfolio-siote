@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurum Studio | Agenție Digitală Premium</title>
+    <meta
+      name="description"
+      content="Aurum Studio creează website-uri premium, branding digital și experiențe web moderne pentru branduri ambițioase."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="navbar container">
+          <a href="#home" class="brand">
+            <span class="brand-mark">A</span>
+            <span class="brand-text">Aurum Studio</span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Deschide meniul"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links" id="navMenu">
+            <a href="#services">Servicii</a>
+            <a href="#projects">Proiecte</a>
+            <a href="#about">Despre</a>
+            <a href="#testimonials">Testimoniale</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Schimbă tema">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+            <a href="#contact" class="btn btn-nav">Solicită ofertă</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section" id="home">
+          <div class="hero-bg"></div>
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <span class="eyebrow">Agenție digitală premium</span>
+              <h1>Construim website-uri care vând, impresionează și diferențiază.</h1>
+              <p class="hero-text">
+                De la identitate vizuală la experiențe web high-end, transformăm
+                brandurile ambițioase în prezențe digitale memorabile.
+              </p>
+              <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Programează o discuție</a>
+                <a href="#projects" class="btn btn-secondary">Vezi portofoliul</a>
+              </div>
+              <div class="hero-metrics">
+                <div>
+                  <strong>120+</strong>
+                  <span>proiecte lansate</span>
+                </div>
+                <div>
+                  <strong>94%</strong>
+                  <span>clienți recurenți</span>
+                </div>
+                <div>
+                  <strong>4.9/5</strong>
+                  <span>rating mediu</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal">
+              <div class="hero-card hero-card-main floating">
+                <img
+                  src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                  alt="Echipă de agenție digitală într-un studio modern"
+                />
+              </div>
+              <div class="hero-card hero-card-accent">
+                <p>Design strategic</p>
+                <strong>UI/UX, branding, conversie</strong>
+              </div>
+              <div class="hero-card hero-card-stats">
+                <span>Creștere medie conversii</span>
+                <strong>+38%</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="partners section">
+          <div class="container">
+            <p class="section-mini reveal">Branduri care au ales experiențe premium</p>
+            <div class="partners-strip reveal">
+              <span>NEXORA</span>
+              <span>LUMEN</span>
+              <span>VELORA</span>
+              <span>ATLAS HOUSE</span>
+              <span>MONACO CLINIC</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="services section" id="services">
+          <div class="container">
+            <div class="section-head reveal">
+              <span class="eyebrow">Servicii</span>
+              <h2>Tot ce ai nevoie pentru o prezență digitală de top</h2>
+              <p>
+                Gândim fiecare proiect ca pe un activ de business: elegant,
+                rapid, bine poziționat și optimizat pentru rezultate.
+              </p>
+            </div>
+
+            <div class="services-grid">
+              <article class="service-card reveal">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Web Design & Development</h3>
+                <p>
+                  Website-uri premium, responsive, rapide și construite pentru a
+                  converti vizitatorii în clienți.
+                </p>
+              </article>
+              <article class="service-card reveal">
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h3>Brand Identity</h3>
+                <p>
+                  Identitate vizuală coerentă, direcție artistică și sisteme de
+                  brand pregătite pentru scalare.
+                </p>
+              </article>
+              <article class="service-card reveal">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Growth & CRO</h3>
+                <p>
+                  Optimizare de conversii, funnel-uri și strategii digitale care
+                  susțin creșterea brandului.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects section" id="projects">
+          <div class="container">
+            <div class="section-head reveal">
+              <span class="eyebrow">Proiecte</span>
+              <h2>Selecție de proiecte livrate cu focus pe performanță și lux vizual</h2>
+            </div>
+
+            <div class="filters reveal">
+              <button class="filter-btn active" data-filter="all">Toate</button>
+              <button class="filter-btn" data-filter="web">Web Design</button>
+              <button class="filter-btn" data-filter="branding">Branding</button>
+              <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+
+            <div class="projects-grid">
+              <article class="project-card reveal" data-category="web">
+                <img
+                  src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80"
+                  alt="Proiect corporate modern"
+                />
+                <div class="project-overlay">
+                  <span>Web Design</span>
+                  <h3>Atlas Executive</h3>
+                  <p>Website corporate pentru o firmă de consultanță premium.</p>
+                </div>
+              </article>
+
+              <article class="project-card reveal" data-category="branding">
+                <img
+                  src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80"
+                  alt="Workshop de branding și strategie"
+                />
+                <div class="project-overlay">
+                  <span>Branding</span>
+                  <h3>Lumen Atelier</h3>
+                  <p>Sistem vizual elegant pentru un studio de interior design.</p>
+                </div>
+              </article>
+
+              <article class="project-card reveal" data-category="ecommerce">
+                <img
+                  src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80"
+                  alt="Magazin online de produse premium"
+                />
+                <div class="project-overlay">
+                  <span>E-commerce</span>
+                  <h3>Velora Store</h3>
+                  <p>Experiență de cumpărare high-end pentru un brand fashion.</p>
+                </div>
+              </article>
+
+              <article class="project-card reveal" data-category="web">
+                <img
+                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80"
+                  alt="Dashboard digital pe laptop"
+                />
+                <div class="project-overlay">
+                  <span>Web Design</span>
+                  <h3>Nexora AI</h3>
+                  <p>Site de prezentare tech cu experiență interactivă și clară.</p>
+                </div>
+              </article>
+
+              <article class="project-card reveal" data-category="branding">
+                <img
+                  src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80"
+                  alt="Eveniment de brand în spațiu premium"
+                />
+                <div class="project-overlay">
+                  <span>Branding</span>
+                  <h3>Maison Noir</h3>
+                  <p>Reposiționare vizuală și prezență digitală pentru hospitality.</p>
+                </div>
+              </article>
+
+              <article class="project-card reveal" data-category="ecommerce">
+                <img
+                  src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80"
+                  alt="Showroom elegant cu produse premium"
+                />
+                <div class="project-overlay">
+                  <span>E-commerce</span>
+                  <h3>Monaco Living</h3>
+                  <p>Platformă premium pentru mobilier și produse de design.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="about section" id="about">
+          <div class="container about-grid">
+            <div class="about-image reveal">
+              <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80"
+                alt="Echipa unei agenții creative în ședință"
+              />
+            </div>
+            <div class="about-copy reveal">
+              <span class="eyebrow">Despre noi</span>
+              <h2>Combinația dintre estetică premium și strategie digitală clară</h2>
+              <p>
+                Aurum Studio lucrează cu business-uri care își doresc mai mult
+                decât un site frumos. Construim ecosisteme digitale elegante,
+                convingătoare și aliniate la obiectivele comerciale reale.
+              </p>
+              <ul class="check-list">
+                <li>Audit UX și poziționare strategică</li>
+                <li>Design personalizat, fără template-uri generice</li>
+                <li>Optimizare mobile, viteză și SEO on-page</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials section" id="testimonials">
+          <div class="container">
+            <div class="section-head reveal">
+              <span class="eyebrow">Testimoniale</span>
+              <h2>Ce spun clienții despre colaborarea cu noi</h2>
+            </div>
+
+            <div class="testimonials-grid">
+              <article class="testimonial-card reveal">
+                <p>
+                  “Au înțeles instant poziționarea brandului nostru și au livrat
+                  un website care arată impecabil și convertește mai bine.”
+                </p>
+                <div>
+                  <strong>Bianca Stoica</strong>
+                  <span>Founder, Maison Noir</span>
+                </div>
+              </article>
+
+              <article class="testimonial-card reveal">
+                <p>
+                  “Proces foarte clar, execuție impecabilă și multă atenție la
+                  detalii. Rezultatul transmite exact nivelul premium dorit.”
+                </p>
+                <div>
+                  <strong>Andrei Mureșan</strong>
+                  <span>CEO, Atlas Executive</span>
+                </div>
+              </article>
+
+              <article class="testimonial-card reveal">
+                <p>
+                  “De la design la copy și structură, totul a fost gândit pentru
+                  business, nu doar pentru estetică. Recomand fără rezerve.”
+                </p>
+                <div>
+                  <strong>Laura Enache</strong>
+                  <span>Marketing Director, Velora</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact section" id="contact">
+          <div class="container contact-grid">
+            <div class="contact-copy reveal">
+              <span class="eyebrow">Contact</span>
+              <h2>Spune-ne ce vrei să construim</h2>
+              <p>
+                Trimite-ne câteva detalii despre proiect, iar noi revenim cu o
+                propunere clară, elegantă și adaptată brandului tău.
+              </p>
+
+              <div class="contact-cards">
+                <a href="mailto:hello@aurumstudio.ro" class="info-card">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>hello@aurumstudio.ro</span>
+                </a>
+                <a href="https://wa.me/40712345678" class="info-card" target="_blank" rel="noreferrer">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>WhatsApp rapid</span>
+                </a>
+                <div class="info-card">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>București, România</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-wrap reveal">
+              <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Nume</label>
+                  <input type="text" id="name" name="name" placeholder="Numele tău" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="email@exemplu.ro" required />
+                </div>
+                <div class="form-group">
+                  <label for="company">Companie</label>
+                  <input type="text" id="company" name="company" placeholder="Numele companiei" />
+                </div>
+                <div class="form-group">
+                  <label for="message">Mesaj</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Descrie pe scurt proiectul tău"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Trimite mesajul</button>
+                <p class="form-status" id="formStatus" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div>
+            <a href="#home" class="brand footer-brand">
+              <span class="brand-mark">A</span>
+              <span class="brand-text">Aurum Studio</span>
+            </a>
+            <p>
+              Agenție digitală premium specializată în web design, branding și
+              experiențe online memorabile.
+            </p>
+          </div>
+
+          <div>
+            <h4>Social</h4>
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a>
+            </div>
+          </div>
+
+          <div>
+            <h4>WhatsApp</h4>
+            <a href="https://wa.me/40712345678" target="_blank" rel="noreferrer" class="footer-link">
+              +40 712 345 678
+            </a>
+          </div>
+        </div>
+
+        <div class="map-wrap">
+          <iframe
+            title="Google Maps"
+            src="https://www.google.com/maps?q=Bucharest%2C%20Romania&z=12&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="container footer-bottom">
+          <span>&copy; 2026 Aurum Studio. Toate drepturile rezervate.</span>
+          <a href="#home">Înapoi sus</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
